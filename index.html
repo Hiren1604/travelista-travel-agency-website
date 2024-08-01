@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <!-- nav-bar and hero section -->
+    <nav>
+        <a href="#" class="logo">Travelista</a>
+        <i class="fa-solid fa-bars-staggered"></i>
+        <div class="nav-links" id="nav-links">
+            <i class="fa-solid fa-xmark"></i>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DISCOVER</a></li>
+                <li><a href="#">FEATURED</a></li>
+                <li><a href="#">CLIENT</a></li>
+                <li><button class="sign-up">SIGN-UP</button></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header" id="home">
+        <video src="./assets/beach-background.mp4" autoplay muted loop></video>
+
+        <div class="main-content-box">
+            <span>Plan your</span>
+            <div class="slider">
+                <div>New Escape</div>
+                <div>New Tour</div>
+                <div>New Travel</div>
+            </div>
+            <p>At Travelista, we believe that travel is more than just a journey; it's an experience that enriches your
+                soul and broadens your horizons. With years of expertise in crafting personalized travel itineraries,
+                our mission is to make your travel dreams come true.</p>
+            <div class="search">
+                <input type="search" name="Search" id="search" placeholder="Search for your Destination">
+                <button class="explore-btn">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- destination section -->
+    <section class="destination" id="destination">
+        <h4 class="label">Destinations</h4>
+        <div class="container">
+            <div class="container-box">
+                <h2 class="heading">City Escape and Nature Retreats</h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corporis, aut aperiam
+                        exercitationem ullam culpa officiis delectus, ea ab rerum voluptatibus consequuntur omnis
+                        consectetur beatae officia neque sint fugiat illum.</p>
+                    <button class="explore-more-btn  btn">Explore More</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="box box1">
+                    <img src="./assets/home-background.jpg" alt="">
+                    <div class="text">
+                        <h2>Maldives</h2>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <img src="./assets/destinations-1.jpg" alt="">
+                    <div class="text">
+                        <h2>Venice</h2>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <img src="./assets/destinations-2.jpg" alt="">
+                    <div class="text">
+                        <h2>Europe</h2>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <img src="./assets/destinations-3.jpg" alt="">
+                    <div class="text">
+                        <h2>Bali</h2>
+                    </div>
+                </div>
+                <div class="box box5">
+                    <img src="./assets/destinations-4.jpg" alt="">
+                    <div class="text">
+                        <h2>East Java</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured hotels section -->
+    <section class="featured" id="featured">
+        <div class="gallery">
+            <div class="box fbox1">
+                <div class="first-box">
+                    <h4 class="featured-label">Featured Offers</h4>
+                    <h2>Unlock Exclusive Travel Deals</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, voluptates.</p>
+                    <div class="ticket-img">
+                        <img src="./assets/plan.png" alt="">
+                    </div>
+                    <button class="btn">Show More</button>
+                </div>
+            </div>
+            <div class="box fbox2">
+                <img src="./assets/featured-1.jpg" alt="Hotel">
+                <div class="content">
+                    <h2>Hotel 1</h2>
+                    <p>Mumbai, India</p>
+                    <div class="review-and-price">
+                        <div class="review"><i class="fa fa-star"></i> 4.9 | 853 Reviews</div>
+                        <p>200$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box fbox3">
+                <img src="./assets/featured-2.jpg" alt="Hotel">
+                <div class="content">
+                    <h2>Hotel 2</h2>
+                    <p>Mumbai, India</p>
+                    <div class="review-and-price">
+                        <div class="review"><i class="fa fa-star"></i> 4.9 | 853 Reviews</div>
+                        <p>200$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box fbox4">
+                <img src="./assets/featured-3.jpg" alt="Hotel">
+                <div class="content">
+                    <h2>Hotel 3</h2>
+                    <p>Mumbai, India</p>
+                    <div class="review-and-price">
+                        <div class="review"><i class="fa fa-star"></i> 4.9 | 853 Reviews</div>
+                        <p>200$</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- clients and feedback section -->
+    <section class="clients" id="client">
+        <div class="clients-header">
+            <h2>Insipring Stories from our <br> Satisfied Customers</h2>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-1.jpg" alt="customer-1" class="customer-img">
+                        <img src="./assets/customer-user-1.jpg" alt="customer-user-1" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-2.jpg" alt="customer-2" class="customer-img">
+                        <img src="./assets/customer-user-2.jpg" alt="customer-user-2" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-3.jpg" alt="customer-3" class="customer-img">
+                        <img src="./assets/customer-user-3.jpg" alt="customer-user-3" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-4.jpg" alt="customer-4" class="customer-img">
+                        <img src="./assets/customer-user-4.jpg" alt="customer-user-4" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-5.jpg" alt="customer-5" class="customer-img">
+                        <img src="./assets/customer-user-5.jpg" alt="customer-user-5" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customer-card">
+                        <img src="./assets/customer-6.jpg" alt="customer-6" class="customer-img">
+                        <img src="./assets/customer-user-6.jpg" alt="customer-user-6" class="customer-user">
+                        <div class="customer-contet">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, nisi!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter section -->
+    <section class="news-letter">
+        <div class="container">
+            <div class="box news-box">
+                <h2 class="newsletter-heading">
+                    Subscribe to our NewsLetter
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</p>
+                <div class="form">
+                    <input type="email" name="Email" id="email" placeholder="Enter your email">
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+        <div class="footer-box">
+            <div class="logo-and-social">
+                <h3 class="section-heading">Follow Us Here</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-threads"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="sections-container">
+                <h3 class="section-heading">Quick Links</h3>
+                <ul class="section-links">
+                    <li><a href="#">Explore Destinations</a></li>
+                    <li><a href="#">Exclusive Offers</a></li>
+                    <li><a href="#">Travel Tips and Guides</a></li>
+                    <li><a href="#">Book your Adventure</a></li>
+                    <li><a href="#">Join our Community</a></li>
+                </ul>
+            </div>
+            <div class="sections-container">
+                <h3 class="section-heading">Company</h3>
+                <ul class="section-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-banner">
+            <a href="#" class="logo">Travelista</a>
+            <h4>© 2024 Travelista, Inc. All rights reserved.</h4>
+        </div>
+    </section>
+    <!-- Script Links -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
