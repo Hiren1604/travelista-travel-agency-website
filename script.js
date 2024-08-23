@@ -46,4 +46,18 @@ sr.reveal(`.label,.heading,container-box .heading,.box1,.box3,.fbox1,.fbox2,.cli
 sr.reveal(`.content,.box2,.box5,.fbox3,.fbox4`, { origin: "right" });
 sr.reveal(`.ticket-img`, { delay: 500 });
 sr.reveal(`.news-box`, { delay: 700, origin: "bottom" });
-sr.reveal(`.box4,.swiper`, { origin: "bottom" })
+sr.reveal(`.box4,.swiper`, { origin: "bottom" });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        const offsetPosition = target.offsetTop - document.querySelector('nav').offsetHeight;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    });
+});
